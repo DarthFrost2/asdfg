@@ -4,7 +4,7 @@ import pickle
 import streamlit as st
 from streamlit_option_menu import option_menu
 
-something_model = pickle.load(open('heart123.sav', 'wb'))
+something_model = pickle.load(open('heart123.sav', 'rb'))
 
 with st.sidebar:
     
