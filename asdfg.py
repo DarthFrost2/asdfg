@@ -76,12 +76,3 @@ if (prediction[0]==0):
   print('you just might be lucky')
 else:
   print('you should get yourself checked')
-
-import pickle
-
-filename = 'heart123.sav'
-pickle.dump(model, open(filename, 'rb'))
-
-"""i change it to rb from wb
-
-"""
