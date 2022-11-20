@@ -1,5 +1,4 @@
-import numpy as np
-import pandas as pd
+import asdfg
 import pickle
 import streamlit as st
 from streamlit_option_menu import option_menu
