@@ -2,7 +2,7 @@ import pickle
 import streamlit as st
 from streamlit_option_menu import option_menu
 
-something_model = pickle.load(open('Pidodida/asdfg/heart123.sav', 'wb'))
+something_model = pickle.load(open('DarthFrost2/asdfg/heart123.sav', 'wb'))
 
 with st.sidebar:
     
